@@ -1,4 +1,6 @@
 import pandas as pd
+import ast
+import pandas as pd
 from src.config import RAW_DATA_PATH, PROCESSED_DATA_PATH
 
 
