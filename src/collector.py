@@ -5,7 +5,7 @@ from src.config import API_URL, PARAMS, HEADERS, RAW_DATA_PATH
 
 
 
-def collerctor_run():
+def run_collector():
     vacancies = []
 
     response = requests.get(API_URL, params=PARAMS, headers=HEADERS)
